@@ -38,7 +38,7 @@ const corsHeaders = {
   'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
 };
 
-const ALIBABA_CLOUD_DASHSCOPE_URL = 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions';
+const ALIBABA_CLOUD_DASHSCOPE_URL = 'https://dashscope-intl.aliyuncs.com/compatible-mode/v1';
 const QWEN_MODEL = 'qwen-turbo';
 
 serve(async (req) => {
